@@ -10,6 +10,7 @@ export default defineConfig({
     stylelint(),
     eslintPlugin({
       useEslintrc: true,
+      exclude: [/virtual:/, /node_modules/],
     }),
     splitVendorChunkPlugin(),
     vue(),

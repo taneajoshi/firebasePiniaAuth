@@ -65,7 +65,6 @@ const login = async () => {
     useUserStore().setUser(userCredential.user as UserInterface);
     router.push("/dashboard");
   } catch (error: any) {
-    console.error("Login error:", error.message);
     errorMessage.value = error.message;
   }
 };

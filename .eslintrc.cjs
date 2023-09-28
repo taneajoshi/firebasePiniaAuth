@@ -10,6 +10,7 @@ module.exports = {
     "plugin:prettier/recommended",
     "@vue/typescript/recommended",
     "plugin:sonarjs/recommended",
+    "plugin:storybook/recommended"
   ],
   parserOptions: {
     ecmaVersion: "latest",
