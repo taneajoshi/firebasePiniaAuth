@@ -16,8 +16,6 @@ export default defineConfig({
     vue(),
   ],
   css: {
-    postcss: {
-      plugins: [autoprefixer({})],
-    },
+    postcss: "./postcss.config.cts",
   },
 });

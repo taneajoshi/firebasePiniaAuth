@@ -1,7 +1,7 @@
 // src/services/authService.ts
 import { Auth } from "firebase/auth";
 import { UserCredential, signInWithEmailAndPassword } from "firebase/auth";
-import { StorageKeys } from "../enums/storageKeys.enum";
+import { StorageKeys } from "../enums/StorageKeys.enum.ts";
 import { useUserStore } from "../store/user";
 
 export class AuthService {

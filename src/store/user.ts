@@ -1,6 +1,6 @@
 import { defineStore } from "pinia";
 import { UserInterface } from "../interfaces/user.interface";
-import { StorageKeys } from "../enums/storageKeys.enum";
+import { StorageKeys } from "../enums/StorageKeys.enum.ts";
 
 export const useUserStore = defineStore({
   id: "user",

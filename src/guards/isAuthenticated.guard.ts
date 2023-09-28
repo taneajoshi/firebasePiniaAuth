@@ -9,7 +9,6 @@ export function isAuthenticatedGuard(
   const userStore = useUserStore();
 
   if (!userStore.user) {
-    console.log(userStore.user);
     next();
   } else {
     next("/dashboard");
